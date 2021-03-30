@@ -1685,34 +1685,15 @@ button {
 
 .ts-faq {
     border-bottom: .0625rem solid rgba(25, 25, 25, .1);
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    padding-top: .75rem;
-    margin-left: 4rem;
+    margin-bottom: 3rem;
     position: relative;
 }
-
-.ts-faq:before {
-    background-color: #191919;
+.avatar {
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    box-shadow: 0 .125rem .3125rem rgba(0, 0, 0, .1);
-    content: "";
-    left: -4rem;
-    padding: 1.25rem;
-    position: absolute;
-    top: 0;
-}
-
-.ts-faq:after {
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    content: "\f128";
-    color: #fff;
-    position: absolute;
-    z-index: 1;
-    top: .5rem;
-    left: -3rem;
-}
+  }
 
 .ts-feature {
     margin-bottom: 2rem;
