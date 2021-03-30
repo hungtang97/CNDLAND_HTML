@@ -1694,6 +1694,17 @@ button {
     height: 60px;
     border-radius: 50%;
   }
+.user-infor-class{
+    display:flex
+}
+.wrapper-avatar{
+    width:30%;
+    display: flex;
+    justify-content: center;
+}
+.wrapper-information{
+    width:70%;
+}
 
 .ts-feature {
     margin-bottom: 2rem;
